@@ -3,7 +3,7 @@
 import { mkdirSync, writeFileSync } from "node:fs";
 
 const line =
-  "Fluent in 40 languages, still can't tell if you're flirting or just being polite. Swipe right if you also overthink a 'haha' for 20 minutes.";
+  "Fluent in 40 languages, still can't tell flirting from politeness. Swipe right if you also overthink a 'haha' for twenty minutes.";
 
 mkdirSync("/output", { recursive: true });
 writeFileSync("/output/entry.txt", line + "\n", "utf8");
